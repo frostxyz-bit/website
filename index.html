@@ -18,33 +18,7 @@
   <meta property="og:url" content="https://frostxyz.carrd.co" />
   <meta property="twitter:card" content="summary_large_image" />
   <link href="index_files/css.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="index_files/aos.css" />
-  <script src="index_files/aos.js"></script>
-  <script> AOS.init(); </script> 
-  <script>
-  AOS.init({
-    disable: false, 
-    startEvent: 'DOMContentLoaded', 
-    initClassName: 'aos-init', 
-    animatedClassName: 'aos-animate', 
-    useClassNames: false, 
-    disableMutationObserver: false, 
-    debounceDelay: 50, 
-    throttleDelay: 99, 
-    
-  
-    
-    offset: 120, 
-    delay: 0, 
-    duration: 400, 
-    easing: 'ease', 
-    once: false, 
-    mirror: false, 
-    anchorPlacement: 'top-bottom', 
-  
-  });
-  </script>
-  <script src="app.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body style="background-color:#EDEDED;"   >
 <div id="toptext">
@@ -86,7 +60,6 @@
   reddit -
   <code>xFRxSTx</code>
 </div>
-
 <ul id="links02" class="links">
   <li>
   <a href="https://steamcommunity.com/id/frost_xyz/">/steam/</a>
@@ -104,13 +77,80 @@
   </li>
 </ul>
 
-<div id="bottomtext">
-  <p>frostt</p>
+
+
+<div id="bottomtitle">
+  <p>recent albums:</p>
+</div>
+
+
+<div class="row">
+  <div class="column" data-aos="fade-up">
+    <img src="index_files/album1.png" alt="cvrsed - oxymoronic.txt files" style="width:350px;height:350px;">
+    <p id="desc">cvrsed - oxymoronic.txtfiles</p> 
+  </div>
+
+  <div class="column" data-aos="fade-up">
+  <img src="index_files/album2.jpg" alt="sewerslvt - Skitzofrenia Simulation" style="width:350px;height:350px;">
+  <p id="desc">Sewerslvt - Skitzofrenia Simulation</p>
+  </div>
+
+  <div class="column" data-aos="fade-up">
+    <img src="index_files/album3.jpg" alt="My Bloody Valentine - m b v" style="width:350px;height:350px;">
+    <p id="desc">My Bloody Valentine - m b v</p>
+    </div>
+
+</div>
+
+<div class="center" data-aos="fade-up">
+
+</div>
+
+<div id="albumcover">
+
+  <div id="bottomtext">
+    <p>frostt</p>
+  </div>
+  
+
 </div>
 
 
 
 
+
+
+
+
+<script>   
+  AOS.init(); 
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script>
+AOS.init({
+  disable: false, 
+  startEvent: 'DOMContentLoaded', 
+  initClassName: 'aos-init', 
+  animatedClassName: 'aos-animate',
+  useClassNames: false, 
+  disableMutationObserver: false, 
+  debounceDelay: 50, 
+  throttleDelay: 99, 
+  
+
+  offset: 120, 
+  delay: 250, 
+  duration: 800, 
+  easing: 'ease', 
+  once: false, 
+  mirror: false,
+  anchorPlacement: 'center-bottom', 
+
+});
+</script>
 
  </body>
 </html> 

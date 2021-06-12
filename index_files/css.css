@@ -541,6 +541,30 @@ p .li {
   padding-top:8rem;
 }
 
+#bottomtitle {
+  text-align:center;
+  color:#000000;
+  font-family:'Michroma',sans-serif;
+  letter-spacing:0.05rem;
+  width:calc(100% + 0.05rem);
+  font-size:0.875em;
+  line-height:1.5;
+  font-weight:400;
+  padding-top:1rem;
+}
+
+#desc {
+  text-align:center;
+  color:#000000;
+  font-family:'Michroma',sans-serif;
+  letter-spacing:0.05rem;
+  width:calc(100% + 0.05rem);
+  font-size:0.4em;
+  line-height:1.5;
+  font-weight:400;
+  position: relative;
+}
+
 #bottomtext {
   text-align:center;
   color:rgb(230, 230, 230);
@@ -597,6 +621,41 @@ p .li {
   padding:0;
   line-height:1.5;
 }
+
+.albumcover {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 1rem;
+  align-content:flex-start;
+}
+
+.row {
+  display: flex;
+  align-content: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+
+
+.space {
+  display: block;
+  padding-top: 1rem;
+}
+
 
 .links li { position:relative; }
 
@@ -781,6 +840,8 @@ p .li {
     font-size:0.875em;
     line-height:2.5;
   }
+
+
 
   #text04 {
     letter-spacing:0.04375rem;
