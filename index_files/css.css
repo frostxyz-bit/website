@@ -137,6 +137,43 @@ mark {
   text-align: right;
 }
 
+h4 {
+  text-align:right;
+  color:#000000;
+  font-family:'Michroma',sans-serif;
+  letter-spacing:0.05rem;
+  width:calc(100% + 0.05rem);
+  font-size:0.4em;
+  line-height:1.5;
+  font-weight:400;
+  position: relative;
+}
+
+h2 {
+  text-align:right;
+  color:#000000;
+  font-family:'Michroma',sans-serif;
+  letter-spacing:0.05rem;
+  width:calc(100% + 0.05rem);
+  font-size:0.7em;
+  line-height:1.5;
+  font-weight:400;
+  position: relative;
+}
+
+
+h1 {
+  text-align:left;
+  color:#000000;
+  font-family:'Michroma',sans-serif;
+  letter-spacing:0.05rem;
+  width:calc(100% + 0.05rem);
+  font-size:1em;
+  line-height:1.5;
+  font-weight:400;
+  position: relative;
+}
+
 input::-moz-focus-inner {
   border:0;
   padding:0;
