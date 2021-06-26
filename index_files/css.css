@@ -147,9 +147,9 @@ h4 {
   line-height:1.5;
   font-weight:400;
   position: relative;
-  padding: 1rem;
-}
-
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 h2 {
   text-align:right;
   color:#000000;
