@@ -148,6 +148,7 @@ h4 {
   font-weight:400;
   padding-top: 1rem;
   padding-right: 1rem;
+  position: relative;
   padding-bottom: 1rem;
 h2 {
   text-align:right;
@@ -488,6 +489,7 @@ p .li {
   font-weight:400;
   padding-right: 1rem;
   padding-top: 2rem;
+  position: relative;
   padding-bottom: 2rem;
 }
 
