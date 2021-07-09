@@ -258,3 +258,7 @@ audio {
 ::-webkit-scrollbar {
 	display: none;
 }
+
+::selection {
+    color: #837e7e;
+}
