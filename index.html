@@ -16,21 +16,22 @@
   <meta property="og:image:height" content="800" /> 
   <meta property="og:url" content="https://frostxyz.carrd.co" /> 
   <meta property="twitter:card" content="summary_large_image" /> 
+  <link rel="icon" href="assets/favicon.png">
   <link href="styles/css.css" rel="stylesheet" type="text/css" /> 
   <link href="styles/fade-in.css" rel="stylesheet" type="text/css" /> 
-  <script src="app.js"></script> 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
  </head> 
+
 
   <!-- Start of socials list-->
 
-  <body onload="document.body.style.opacity='1'">
-
- <body style="background-color:#EDEDED;"> 
+ <body onload="document.body.style.opacity='1'"> 
   <div id="toptext"> 
    <p>fros<strong>t</strong></p> 
   </div> 
   <ul id="music-stream" class="links"> 
-   <li> <a href="http://frost-xyz.us.to:54322/content/psc.mp3">/music stream/</a> </li> 
+   <li> <a href="http://frostt.xyz/music" target="_blank" rel="noopener noreferrer">/music stream/</a> </li> 
   </ul> 
   <div id="social"> 
    <p><s>social</s></p> 
@@ -40,45 +41,45 @@
 <code>frost#1633</code> 
   </div> 
   <ul id="links" class="links"> 
-   <li> <a href="https://open.spotify.com/user/f3kt0iibbwi24lol31vb65a0p?si=c-l_wvYUQ0eW2p1nme3y7g&amp;nd=1">/spotify/</a> </li> 
+   <li> <a href="https://open.spotify.com/user/f3kt0iibbwi24lol31vb65a0p?si=c-l_wvYUQ0eW2p1nme3y7g&amp;nd=1" target="_blank" rel="noopener noreferrer">/spotify/</a> </li> 
   </ul> 
   <div id="text">
     vrchat - 
    <code>frost.xyz</code> 
   </div> 
   <ul id="links" class="links"> 
-   <li> <a href="https://github.com/frostxyz-bit">/github/</a> </li> 
+   <li> <a href="https://github.com/frostxyz-bit" target="_blank" rel="noopener noreferrer">/github/</a> </li> 
   </ul> 
   <div id="text">
     reddit - 
    <code>xFRxSTx</code> 
   </div> 
   <ul id="links" class="links"> 
-   <li> <a href="https://steamcommunity.com/id/frost_xyz/">/steam/</a> </li> 
+   <li> <a href="https://steamcommunity.com/id/frost_xyz/" target="_blank" rel="noopener noreferrer">/steam/</a> </li> 
   </ul> 
   <div id="text">
     twitter - 
    <code>fr6st_</code> 
   </div> 
   <ul id="links" class="links"> 
-   <li> <a href="https://www.instagram.com/frost.xyz/">/instagram/</a> </li> 
+   <li> <a href="https://www.instagram.com/frost.xyz/" target="_blank" rel="noopener noreferrer">/instagram/</a> </li> 
   </ul> 
   
-<div id="bottomtitle">
+<div id="toptext">
   <p>recent albums:</p>
 </div>
 <div class="row">
-  <div class="column" data-aos="fade-up">
-    <img src="index_files/album1.jpg" alt="Imani - racecar" style="width:350px;height:350px;">
-    <p id="desc">Imani - racecar</p> 
+  <div class="album" data-aos="fade-up">
+    <img src="assets/album1.jpg" alt="Imani - racecar" style="width:350px;height:350px;">
+    <p>Imani - racecar</p> 
   </div>
-  <div class="column" data-aos="fade-up">
-  <img src="index_files/album2.jpg" alt="George Clanton - Slide" style="width:350px;height:350px;">
-  <p id="desc">George Clanton - Slide</p>
+  <div class="album" data-aos="fade-up">
+    <img src="assets/album2.jpg" alt="George Clanton - Slide" style="width:350px;height:350px;">
+  <p>George Clanton - Slide</p>
   </div>
-  <div class="column" data-aos="fade-up">
-    <img src="index_files/album3.jpg" alt="The Smiths - Hatful Of Hollow" style="width:350px;height:350px;">
-    <p id="desc">The Smiths - Hatful Of Hollow</p>
+  <div class="album" data-aos="fade-up">
+    <img src="assets/album3.jpg" alt="The Smiths - Hatful Of Hollow" style="width:350px;height:350px;">
+    <p>The Smiths - Hatful Of Hollow</p>
     </div>
 </div>
 <div class="center" data-aos="fade-up">
@@ -86,8 +87,8 @@
 <div id="albumcover">
  
  
-<div id="bottomtitle">
- <a href="https://github.com/frostxyz-bit/music">offline music library</a>
+<div id="links" style="text-align: center;" data-aos="fade-in">
+ <a href="https://frostt.xyz/library" target="_blank" rel="noopener noreferrer">/offline music library/</a>
 </div>
 
   
@@ -96,3 +97,8 @@
   </div>  
  </body>
 </html>
+
+ <!-- Initiate AOS-->
+ <script>
+  AOS.init();
+</script>

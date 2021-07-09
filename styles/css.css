@@ -189,6 +189,32 @@ code {
 
 #links li a:hover { text-decoration:underline; }
 
+.album {
+  flex: 33.33%;
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-content: center;
+  font-family:'Michroma',sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+#audio {
+  display: flex;
+justify-content: center;
+}
+
+audio {
+  width: 7rem;
+  height: 75px;
+}
+
 /* mobile support */
 
 @media (max-width:736px) {
