@@ -102,9 +102,9 @@ code {
 }
 #homebutton {
 	display: none;
-	position: relative;
+	position: absolute;
 	bottom: 20px;
-	right: 100em;
+	right: 70vw;
 	z-index: 99;
 	font-size: 18px;
 	border: none;
