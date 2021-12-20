@@ -102,7 +102,7 @@ code {
 }
 #homebutton {
 	display: none;
-	position: fixed;
+	position: relative;
 	bottom: 20px;
 	right: 100em;
 	z-index: 99;
