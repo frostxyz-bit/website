@@ -50,7 +50,7 @@ code {
 	padding: 0.25em 0.5em;
 	background-color: #363636;
 	border-radius: 0.25em;
-	color: #080808
+	color: #FFFFFF
 }
 
 #text01 {
@@ -258,7 +258,6 @@ code {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	text-align: center;
-	filter: brightness(85%);
 	
 }
 
