@@ -313,8 +313,20 @@ audio {
 		width: calc(100% + 1.04375rem);
 		letter-spacing: 0.04375rem;
 		font-size: 1em;
+	
+	}
+	#bannerimage {
+	  width: 100%;
+	  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/2560px-Transgender_Pride_flag.svg.png);
+	  height: 75px;
+	  background-position: center;
+	  padding-top: 1em;
+	  padding-bottom: 1em;
 	}
 }
+
+
+
 
 ::-webkit-scrollbar {
 	display: none;
