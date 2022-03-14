@@ -282,10 +282,9 @@ audio {
 
 .banner {
   width: 100%;
-  height: 75px;
+  height: 125px;
   background-position: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
 }
 
 /* mobile support */
