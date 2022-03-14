@@ -280,6 +280,13 @@ audio {
 	height: 75px;
 }
 
+.banner {
+  width: 100%;
+  height: 75px;
+  background-position: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 /* mobile support */
 
@@ -315,13 +322,7 @@ audio {
 		font-size: 1em;
 	
 	}
-	.banner {
-	  width: 100%;
-	  height: 75px;
-	  background-position: center;
-	  padding-top: 1em;
-	  padding-bottom: 1em;
-	}
+
 }
 
 
