@@ -315,9 +315,8 @@ audio {
 		font-size: 1em;
 	
 	}
-	#bannerimage {
+	.banner {
 	  width: 100%;
-	  background-image: "./trans_flag.png";
 	  height: 75px;
 	  background-position: center;
 	  padding-top: 1em;
