@@ -317,7 +317,7 @@ audio {
 	}
 	#bannerimage {
 	  width: 100%;
-	  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/2560px-Transgender_Pride_flag.svg.png);
+	  background-image: "./trans_flag.png";
 	  height: 75px;
 	  background-position: center;
 	  padding-top: 1em;
