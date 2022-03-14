@@ -31,7 +31,7 @@ body {
 	line-height: 1.0;
 	word-wrap: break-word;
 	overflow-x: hidden;
-	background-color: #121212;
+	background-color: #FFFFFF;
 	scrollbar-width: none;
 }
 
@@ -55,7 +55,7 @@ code {
 
 #text01 {
 	text-align: center;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -66,7 +66,7 @@ code {
 
 #toc {
 	text-align: right;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -79,7 +79,7 @@ code {
 }
 #tocc {
 	text-align: center;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.1rem;
 	width: calc(100% + 0.05rem);
@@ -100,7 +100,7 @@ code {
 	padding-left: 1em;
 	padding-right: 1em;
 	text-decoration: none;
-	color:#363636;
+	color:#121212;
 }
 #homebutton {
 	display: none;
@@ -112,7 +112,7 @@ code {
 	border: none;
 	outline: none;
 	background-color: #000000;
-	color: #363636;
+	color: #121212;
 	cursor: pointer;
 	padding: 15px;
 }
@@ -122,7 +122,7 @@ code {
 }
 #social {
 	text-align: right;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -136,7 +136,7 @@ code {
 
 #text {
 	text-align: right;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -148,7 +148,7 @@ code {
 
 #toptext {
 	text-align: center;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -160,7 +160,7 @@ code {
 
 #bottomtext {
 	text-align: center;
-	color: #151515;
+	color: #f5f4f2;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -204,7 +204,7 @@ code {
 
 #desc {
 	text-align: center;
-	color: #363636;
+	color: #121212;
 	font-family: 'akkurat-monoregular', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
@@ -243,7 +243,7 @@ code {
 }
 
 #links a {
-	color: #727272;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -268,7 +268,7 @@ code {
 	font-family: 'akkurat-monoregular', sans-serif;
 	font-size: 15pt;
 	font-weight: 100;
-	color: #909090;
+	color: #121212;
 }
 
 #audio {
