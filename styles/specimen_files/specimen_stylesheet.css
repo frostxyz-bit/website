@@ -274,7 +274,7 @@ code {
 /* @group Layout page
  */
 
-#layout h1 {
+#layout h1{
 	font-size: 36px;
 	line-height: 42px;
 	font-weight: normal;
@@ -358,7 +358,7 @@ code {
 }
 
 
-#glyphs h1 {
+#glyphs h1{
 	font-family: Arial, sans-serif;
 }
 /* @end */
@@ -385,7 +385,7 @@ code {
 
 /* @end */
 
-#rendering h1 {
+#rendering h1{
 	font-family: Arial, sans-serif;
 }
 .render_table td {

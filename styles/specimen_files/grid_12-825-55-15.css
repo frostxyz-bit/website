@@ -41,7 +41,7 @@ Gutter Width: 15px
 .width1_2cols,.grid1_2cols {width: 20px;}
 .width1_3cols,.grid1_3cols  {width: 8px;}
 .width1_4cols,.grid1_4cols  {width: 2px;}
-.input_width1 {width: 49px;}
+.input_width1{width: 49px;}
  
 .width2, .grid2, .span-2 {width: 125px;}
 .width2_3cols,.grid2_3cols  {width: 31px;}

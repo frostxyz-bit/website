@@ -100,7 +100,7 @@ code {
 	padding-left: 1em;
 	padding-right: 1em;
 	text-decoration: none;
-	color:#121212;
+	color: #0000EE;
 }
 #homebutton {
 	display: none;
@@ -121,7 +121,7 @@ code {
 	background-color: #555;
 }
 #social {
-	text-align: right;
+	text-align: center;
 	color: #121212;
 	font-family: "Times New Roman", Times, serif;
 	letter-spacing: 0.05rem;
@@ -135,7 +135,7 @@ code {
 }
 
 #text {
-	text-align: right;
+	text-align: center;
 	color: #121212;
 	font-family: "Times New Roman", Times, serif;
 	letter-spacing: 0.05rem;
@@ -156,6 +156,40 @@ code {
 	line-height: 1.5;
 	font-weight: 400;
 	padding-top: 2rem;
+}
+
+#toptext a:visited {
+	color: #0000EE;
+}
+
+#toptextsmaller {
+	text-align: center;
+	color: #121212;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 0.05rem;
+	width: calc(100% + 0.05rem);
+	font-size: 0.775em;
+	line-height: 1.5;
+	font-weight: 400;
+	padding-top: 1rem;
+	padding-bottom: 1em;
+}
+
+#toptextsmaller a:visited {
+	color:#0000EE;
+}
+
+#toptextsmallest {
+	text-align: center;
+	color: #121212;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 0.05rem;
+	width: calc(100% + 0.05rem);
+	font-size: 0.575em;
+	line-height: 1.5;
+	font-weight: 400;
+	padding-top: 1rem;
+	padding-bottom: 1em;
 }
 
 
@@ -246,7 +280,7 @@ code {
 	letter-spacing: 0.05rem;
 	font-size: 1em;
 	font-weight: 400;
-	text-align: right;
+	text-align: center;
 	padding-right: 1rem;
 	padding-top: 0.15rem;
 	padding-bottom: 0.15rem;
@@ -258,8 +292,11 @@ code {
 	margin: 0.5rem;
 }
 
+#links a:visited {
+	color:#0000EE;
+}
+
 #links a {
-	color: #000000;
 	text-decoration: none;
 }
 
@@ -267,13 +304,17 @@ code {
 	text-decoration: underline;
 }
 
-.album {
+.album  {
 	flex: 33.33%;
 	padding-bottom: 4rem;
 	padding-top: 1rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	text-align: center;
+	
+}
+.album img {
+	border: 0.1em solid rgb(0, 0, 0);
 	
 }
 
