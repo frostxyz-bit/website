@@ -1,12 +1,4 @@
-@charset "UTF-8";
-@font-face {
-    font-family: 'akkurat-monoregular';
-    src: url('akkurat-mono.woff2') format('woff2'),
-         url('akkurat-mono.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 html {
 	scroll-behavior: smooth;
@@ -35,6 +27,10 @@ body {
 	scrollbar-width: none;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
 strong {
 	color: inherit;
 	font-weight: bolder;
@@ -56,7 +52,7 @@ code {
 #text01 {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -67,7 +63,7 @@ code {
 #toc {
 	text-align: right;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -80,7 +76,7 @@ code {
 #tocc {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.1rem;
 	width: calc(100% + 0.05rem);
 	font-size: 15pt;
@@ -123,7 +119,7 @@ code {
 #social {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -137,7 +133,7 @@ code {
 #text {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -149,23 +145,25 @@ code {
 #toptext {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
-	font-size: 0.875em;
+	font-size: 0.675em;
 	line-height: 1.5;
 	font-weight: 400;
 	padding-top: 2rem;
 }
 
+
 #toptext a:visited {
 	color: #0000EE;
 }
 
+
 #toptextsmaller {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.775em;
@@ -182,7 +180,7 @@ code {
 #toptextsmallest {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.575em;
@@ -206,7 +204,7 @@ code {
 #bottomtext {
 	text-align: center;
 	color: #f5f4f2;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -215,6 +213,65 @@ code {
 	padding-top: 1rem;
 	padding-bottom: 5rem;
 }
+
+
+.topbar {
+	align-content: center;
+	align-self: center;
+	text-align: center;
+	vertical-align: top;
+	line-height: 0%;
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+.midpanel {
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	padding-top: 5em;
+}
+
+.midpanel_inner  {
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	
+	
+}
+
+#title {
+	position: absolute;
+	align-self: center;
+	text-align: center;
+	bottom: 75%;
+	left: 15%;
+}
+
+
+.midpanel_inner > img {
+	position:relative;
+	border: rgb(15, 26, 95);
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: rgba(21, 35, 123, 0.45);
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.589));
+}
+
+
+.underbar {
+	align-self: center;
+	vertical-align: top;
+	line-height: 0%;
+	margin: 0%;
+	padding: 0%;
+	
+}
+
 
 .links {
 	cursor: default;
@@ -239,7 +296,7 @@ code {
 #music-stream {
 	margin-left: -0.5rem;
 	width: calc(100% + 1.05rem);
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	font-size: 1em;
 	font-weight: 400;
@@ -250,7 +307,7 @@ code {
 #desc {
 	text-align: center;
 	color: #121212;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.4em;
@@ -276,7 +333,7 @@ code {
 #links {
 	margin-left: -0.5rem;
 	width: calc(100% + 1.05rem);
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	letter-spacing: 0.05rem;
 	font-size: 1em;
 	font-weight: 400;
@@ -321,7 +378,7 @@ code {
 .row {
 	display: flexbox;
 	align-content: center;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Space Mono', monospace;;
 	font-size: 15pt;
 	font-weight: 100;
 	color: #121212;
