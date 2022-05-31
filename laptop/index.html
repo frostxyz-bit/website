@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>unity projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="description" content="_____" />
+		<meta property="og:site_name" content="frostt" />
+		<meta property="og:title" content="frostt" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="_____" />
+		<meta property="og:image" content="assets/frost_banner.jpg" />
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta property="og:image:width" content="1280" />
+		<meta property="og:image:height" content="800" />
+		<meta property="og:url" content="https://frostxyz.carrd.co" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<link href="../styles/css.css" rel="stylesheet" type="text/css" />
+		<link href="../styles/fade-in.css" rel="stylesheet" type="text/css" />
+		<link href="../https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="../https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	</head>
+	<!-- Start of socials list-->
+	<body onload="document.body.style.opacity='1'">
+        <div id="toptextsmaller">
+            <p>How to gain access to local administrator on Windows 10 school laptops.</p>
+        </div>
+        <div id="toptext">
+            Materials needed:
+        </div>
+        <div id="toptextsmallest">
+            <p>-- Windows 10 Installer USB --</p>
+        </div>
+        <div id="toptextsmallest">
+            <p>-- Common Sense --</p>
+        </div>
+        <div id="toptext">
+            <p>Getting the materials</p>
+        </div>
+        <div id="toptextsmallest">
+            <p>First, we must create a Windows 10 Installer USB. This can be done by getting any *blank* USB with at least 8GB of available space.</p>
+            <p>Then, once you have a blank USB ready, download the Windows 10 Media Creation tool. (link below)</p>
+        </div>
+        <div id="toptext">
+            <a href="https://go.microsoft.com/fwlink/?LinkId=691209">Media Creation Tool download</a>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop15.png">
+        </div>
+        <div id="toptextsmallest">
+            <p>After following the instructions in the Media Creation Tool, you should now have a USB with the Windows 10 installer on it. 
+                Eject the USB from the computer and get ready for the next step of the process.</p>
+        </div>
+        <div id="toptextsmaller">
+            <p>Preparing the laptop and using the Windows 10 Installer:</p>
+        </div>
+        <div id="toptext">
+            <p>Preparing the laptop.</p>
+        </div>
+        <div id="toptext">
+            <p>First, shut down the computer fully and plug in the USB drive that contains the installer. After plugging in the USB, power on the laptop and repeatedly press the "F12" key until the BIOS menu appears. (pictured below)</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop1.png">
+            <p>The BIOS screen loading after pressing F12, with the "Preparing one-time boot menu" message in the top-right corner.</p>
+        </div>
+        <div id="toptext">
+            <p>Once the BIOS menu is fully loaded, select the USB stick under "EUFI" boot options. (It should be the only option besides "Windows Boot Manager"</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop2.png">
+            <p>The BIOS menu fully loaded, with the USB drive selected.</p>
+        </div>
+        <div id="toptext">
+            <p>After selecting the USB and pressing "ENTER" on your keyboard, you should be greeted with this screen. Select "Windows Setup (64-bit)"</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop3actual.png">
+        </div>
+        <div id="toptext">
+            <p>After all of the files have loaded, the Windows Setup dialog will appear. Click "Next".</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop3.png">
+        </div>
+        <div id="toptext">
+            <p>Then, click "Repair your computer"</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop4.png">
+        </div>
+        <div id="toptext">
+            <p>After that, this screen will appear. Click "Troubleshoot", and then "Command Prompt".</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop5.png">
+            <img src="./laptop6.png">
+        </div>
+        <div id="toptext">
+            <p>Now we have gained access to an administrator command prompt. Be careful, if you do not follow the steps carefully you could completely ruin your computer.</p>
+        </div>
+        <div id="toptext">
+            <p>First, type in <code>C:</code>, as shown below.</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop7.png">
+        </div>
+        <div id="toptext">
+            <p>After that, type in <code>CD Windows\System32</code>. This is case-sensitive, meaning you have to type it exactly as it appears.</p>
+            <p>(With capital letters)</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop8.png">
+        </div>
+        <div id="toptext">
+            <p>The final command prompt step will be to type in <code>COPY cmd.exe sethc.exe</code>. When it asks for confirmation, type <code>Y</code>.</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop9.png">
+        </div>
+        <div id="toptext">
+            <p>After you are done using the command prompt, exit the program and shut down your laptop, to begin the next step of the process.</p>
+        </div>
+        <div id="toptextsmaller">
+            <p>Getting the administrator account:</p>
+        </div>
+        <div id="toptext">
+            <p>After shutting down your laptop, boot it up as you normally do. However, do NOT sign in yet.</p>
+        </div>
+        <div id="toptext">
+            <p>When you arrive at the lock screen, press the "SHIFT" key on the keyboard until a command prompt window opens up, as seen below.</p>
+        </div>
+        <div id="toptext">
+            <p>Once the prompt has opened, type <code>net user sktech password</code>, and exit the window once it has completed succesfully. Then, sign in with your *student* account.</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop10.png">
+        </div>
+        <div id="toptext">
+            <p>After signing in, go to "Settings", click on "System", and scroll all the way down on the left hand side until you find "About". Once you are in the "About" menu, take note of the "Device Name". Take a photo of it, write it down, or do whatever is necessary to remember it. This is very important.</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop11.png">
+        </div>
+        <div id="toptext">
+            <p>Alright, now all of the difficult stuff is done, and we can begin actually using the administrator account. Whenever Windows needs administrator privileges to do something, it opens up something called the "UAC" panel, which looks something like this:</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop12.png">
+        </div>
+        <div id="toptext">
+            <p>Now, instead of entering your information, you are going to click on "More Choices", and then scroll down to "Use a different account".</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop13.png">
+        </div>
+        <div id="toptext">
+            <p>Now comes the part where the device name comes in handy. For the username, type in your device name followed by <code>\sktech</code>.</p>
+            <p>The password is simply just <code>password</code>.</p>
+        </div>
+        <div id="toptextsmallest">
+            <img src="./laptop14.png">
+        </div>
+        <div id="toptext">
+            <p>For instance, if your device name is "2022-XXXXXXX", then you would type in <code>2022-XXXXXXX\sktech</code> as the username.</p>
+            <p>Well, that's all there is to it. If you ever need administrator access, just make sure to always sign in with the "sktech" account.</p>
+        </div>
+        <div id="toptext">
+
+        </div>
+
+    </body>
+</html>
+<!-- Initiate AOS-->
+<!-- rip AOS lol -->
+

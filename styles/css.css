@@ -152,6 +152,8 @@ code {
 	line-height: 1.5;
 	font-weight: 400;
 	padding-top: 2rem;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 
@@ -188,6 +190,13 @@ code {
 	font-weight: 400;
 	padding-top: 1rem;
 	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#toptextsmallest > img {
+	width: 50%;
+	height:auto;
 }
 
 
